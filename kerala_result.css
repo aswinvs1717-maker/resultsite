@@ -1,0 +1,129 @@
+body{
+    background-color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    margin-bottom: 0px
+}
+    
+    
+.head{
+    display:block;
+}
+.head1{
+    display: flex;
+    margin-left: 240px;
+    margin-top: -142px;
+    font-size: 31px;
+}
+.govt-logo{
+    height: 71px;
+    width: 95px;
+}
+.navbar{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar ul{
+    background-color: #3399ff;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;;
+}
+.navbar a:hover{
+    background-color: #0b60af;
+}
+.navbar li{
+    float: left;
+}
+.tit1{
+    color: rgba(9, 105, 6, 0.664);
+}
+.tit2{
+    color: rgba(9, 105, 6, 0.664);
+}
+.tit3{
+    color: #3399ff;
+}
+.tit4{
+    font-size: 20px;
+}
+#mini.tit{
+    font-size: smaller;
+}
+.kitelogo img{
+    height: 234px;
+    width: 343px;
+    margin-left: 110px;
+    margin-top: 62px;
+    display: flex;
+}
+.fdet{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.login-btn{
+    margin-left: 105px;
+    margin-top: 13px;
+    border-radius: 8px;
+    border: 1px solid #0d0e0e;
+    background-color: #3399ff;
+    color: #0f0f0f;
+    width: 86px;
+    height: 33px;
+    cursor: pointer;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+}
+.login-btn :hover{
+    background: linear-gradient(90deg, #03a9f4 #f441a5 #ffeb3b);
+}
+hr{
+    margin-top: -7px;
+}
+.image{
+    margin-left: 45px;
+    margin-top: 27px;
+}
+.search{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.forms{
+    margin-top: 130px;
+    margin-left: 140px;
+    font-size: 20px;
+    box-sizing: 50px;
+    
+}
+.forms input{
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.forms ::placeholder{
+    text-align: center;
+}
+.box2{
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    background-color: #3399ff;
+    height: 50px;
+    width: 100%;
+    padding-top: 12px;
+}
